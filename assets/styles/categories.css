@@ -1,0 +1,28 @@
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.category__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.category__title {
+    font-size: 1.375rem;
+}
+
+.category__link {
+    font-size: 0.875rem;
+}
+
+.category__link::after {
+    content: url(../images/arrow.svg);
+    margin-left: 0.25rem;
+    vertical-align: middle;
+}

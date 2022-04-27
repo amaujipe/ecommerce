@@ -1,0 +1,21 @@
+.header .container {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+
+.header__button {
+    font-weight: 700;
+    width: 8rem;
+    text-align: center;
+}

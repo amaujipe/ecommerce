@@ -1,0 +1,36 @@
+.aside {
+    background-color: var(--background-color-alt);
+}
+
+[class^="aside__"] {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} 
+
+.aside__logo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.aside__logo img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.aside__nav {
+    text-align: center;
+}
+
+.aside__nav li {
+    margin-bottom: 1rem;
+}
+
+.aside__nav li:last-child {
+    margin-bottom: 0;
+}
+
+.aside__nav a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
