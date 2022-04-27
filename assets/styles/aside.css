@@ -34,3 +34,37 @@
     font-weight: 400;
     color: var(--text-color);
 }
+
+@media screen and (min-width: 768px) {
+
+    .aside .container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 2rem 0;
+    }
+
+    .aside__brand {
+        width: 35%;
+        padding: 0;
+    }
+
+    .aside__logo {
+        padding-top: 0;
+    }
+
+    .aside__logo,
+    .aside__nav {
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    .aside__contact {
+        width: 60%;
+    }
+
+    .aside__contact .form__input {
+        margin-bottom: 1rem;
+    }
+
+}

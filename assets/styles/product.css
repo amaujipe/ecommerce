@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+/* .product__image-container {
+    position: relative;
+} */
+
 .product__info {
     padding: 1rem 0;
 }
@@ -20,3 +24,4 @@
     font-weight: 700;
     margin: 0.5rem 0;
 }
+

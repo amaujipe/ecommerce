@@ -31,7 +31,7 @@
             <div class="header__actions">
                 <a class="header__button button button--secondary" href="#">Login</a>
                 <div class="header__search">
-                    <span class="header__search-text invisible">¿Que deseas buscar?</span>
+                    <span class="header__search-text">¿Que deseas buscar?</span>
                     <img class="header__search-icon" src="assets/images/search.svg" alt="Icono de lupa" />
                 </div>
             </div>
@@ -53,30 +53,61 @@
                         <a href="#" class="gallery__link">Ver todo</a>
                     </div>
                     <article class="card">
-                        <picture>
-                            <source srcset="assets/images/products/sources/star-wars-mug.jpg" media="(min-width: 1440px)" />
-                            <source srcset="assets/images/products/star-wars-mug-large.jpg" media="(min-width: 1024px)" />
-                            <source srcset="assets/images/products/star-wars-mug-medium.jpg" media="(min-width: 768px)" />
-                            <img class="card__image" alt="Star Wars Mug" src="assets/images/products/star-wars-mug-small.jpg" />
-                        </picture>
+                        <div class="card__image-container">
+                            <img class="card__image" alt="Imagen del producto"
+                                srcset="
+                                    assets/images/products/star-wars-mug-small.jpg 420w,
+                                    assets/images/products/star-wars-mug-medium.jpg 768w,
+                                    assets/images/products/star-wars-mug-large.jpg 1024w
+                                "
+                                src="assets/images/products/sources/star-wars-mug.jpg" 
+                            />
+                        </div>
                         <h3 class="card__title">Star Wars Mug</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/products/sources/star-wars-mug.jpg" alt="Star Wars Mug" />
+                        <div class="card__image-container">
+                            <img class="card__image" alt="Imagen del producto"
+                                srcset="
+                                    assets/images/products/star-wars-mug-small.jpg 420w,
+                                    assets/images/products/star-wars-mug-medium.jpg 768w,
+                                    assets/images/products/star-wars-mug-large.jpg 1024w
+                                "
+                                src="assets/images/products/sources/star-wars-mug.jpg" 
+                            />
+                        </div>
                         <h3 class="card__title">Star Wars Mug</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/products/sources/star-wars-mug.jpg" alt="Star Wars Mug" />
+                        <div class="card__image-container">
+                            <img class="card__image" alt="Imagen del producto"
+                                srcset="
+                                    assets/images/products/star-wars-mug-small.jpg 420w,
+                                    assets/images/products/star-wars-mug-medium.jpg 768w,
+                                    assets/images/products/star-wars-mug-large.jpg 1024w
+                                "
+                                src="assets/images/products/sources/star-wars-mug.jpg" 
+                            />
+                        </div>
                         <h3 class="card__title">Star Wars Mug</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/products/sources/star-wars-mug.jpg" alt="Star Wars Mug" />
+                        <div class="card__image-container">
+                            <img class="card__image" alt="Imagen del producto"
+                                srcset="
+                                    assets/images/products/star-wars-mug-small.jpg 420w,
+                                    assets/images/products/star-wars-mug-medium.jpg 768w,
+                                    assets/images/products/star-wars-mug-large.jpg 1024w
+                                "
+                                src="assets/images/products/sources/star-wars-mug.jpg" 
+                            />
+                        </div>
                         <h3 class="card__title">Star Wars Mug</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
@@ -147,22 +178,24 @@
     </main>
     <aside class="aside">
         <div class="container">
-            <div class="aside__logo logo">
-                <img class="logo__image"src="assets/images/icon-logo.svg" alt="Logo de AluraGeek" />
-                <span class="logo__brand logo__brand--alt">Alura</span><span class="logo__brand">Geek</span>
+            <div class="aside__brand">
+                <div class="aside__logo logo">
+                    <img class="logo__image"src="assets/images/icon-logo.svg" alt="Logo de AluraGeek" />
+                    <span class="logo__brand logo__brand--alt">Alura</span><span class="logo__brand">Geek</span>
+                </div>
+                <nav class="aside__nav nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#" class="menu__link">Quienes Somos</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Política de privacidad</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Programa de fidelidad</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Nuestras tiendas</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Quiero ser franquiciado</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Anúnie aquí</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="aside__nav nav">
-                <ul class="menu">
-                    <li class="menu__item"><a href="#" class="menu__link">Quienes Somos</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Política de privacidad</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Programa de fidelidad</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Nuestras tiendas</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Quiero ser franquiciado</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Anúnie aquí</a></li>
-                </ul>
-            </nav>
             <section class="aside__contact contact">
-                <h2 class="contact__title">Hable con nosotros</h2>
+                <h2 class="form__title">Hable con nosotros</h2>
                 <form class="contact__form form" action="#">
                     <input class="form__input" type="text" placeholder="Nombre" />
                     <textarea class="form__textarea" placeholder="Escribe tu mensaje"></textarea>

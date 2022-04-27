@@ -23,3 +23,30 @@
     width: 8rem;
     text-align: center;
 }
+
+.header__search-text {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header__actions {
+        flex-direction: row-reverse;
+        width: 70%;
+    }
+    
+    .header__search {
+        width: 55%;
+        background-color: var(--background-color);
+        padding: 0.5rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 1.25rem;
+    }
+
+    .header__search-text {
+        display: inline-block;
+    }
+
+}

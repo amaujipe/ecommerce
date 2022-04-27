@@ -39,8 +39,8 @@
     </header>
     <main class="main">
         <section class="product">
-            <div class="card__image-container">
-                <img class="card__image" alt="Imagen del producto"
+            <div class="product__image-container">
+                <img class="product__image" alt="Imagen del producto"
                     srcset="
                         assets/images/products/star-wars-mug-small.jpg 225w,
                         assets/images/products/star-wars-mug-medium.jpg 768w,
@@ -116,20 +116,22 @@
     </main>
     <aside class="aside">
         <div class="container">
-            <div class="aside__logo logo">
-                <img class="logo__image"src="assets/images/icon-logo.svg" alt="Logo de AluraGeek" />
-                <span class="logo__brand logo__brand--alt">Alura</span><span class="logo__brand">Geek</span>
+            <div class="aside__brand">
+                <div class="aside__logo logo">
+                    <img class="logo__image"src="assets/images/icon-logo.svg" alt="Logo de AluraGeek" />
+                    <span class="logo__brand logo__brand--alt">Alura</span><span class="logo__brand">Geek</span>
+                </div>
+                <nav class="aside__nav nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#" class="menu__link">Quienes Somos</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Política de privacidad</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Programa de fidelidad</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Nuestras tiendas</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Quiero ser franquiciado</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Anúnie aquí</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="aside__nav nav">
-                <ul class="menu">
-                    <li class="menu__item"><a href="#" class="menu__link">Quienes Somos</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Política de privacidad</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Programa de fidelidad</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Nuestras tiendas</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Quiero ser franquiciado</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Anúnie aquí</a></li>
-                </ul>
-            </nav>
             <section class="aside__contact contact">
                 <h2 class="form__title">Hable con nosotros</h2>
                 <form class="contact__form form" action="#">

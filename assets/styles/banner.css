@@ -9,6 +9,10 @@
     justify-content: flex-end;
 }
 
+.banner .container {
+    padding-bottom: 1rem;
+}
+
 .banner__title {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -22,5 +26,26 @@
 .banner__button {
     display: inline-block;
     font-weight: 400;
-    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .banner {
+        height: 22rem;
+    }
+
+    .banner .container {
+        padding-bottom: 2rem;
+    }
+
+    .banner__title {
+        font-size: 3.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .banner__description {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
 }

@@ -31,7 +31,6 @@
 .logo__image {
     vertical-align: middle;
     width: 1.5rem;
-    height: 1.5rem;
 }
 
 .logo__brand {
@@ -93,4 +92,14 @@
 
 .form__button {
     border: none;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
 }
