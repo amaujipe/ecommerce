@@ -59,20 +59,32 @@
 }
 
 
-/* .contact {
+/* .form {
 
 } */
 
-.contact__title {
+.form__title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
 .form__input,
 .form__textarea {
+    border: none;
     margin-bottom: 0.5rem;
     padding: 1rem 0.75rem;
     width: 100%;
+}
+
+.form__add {
+    background-color: var(--white-color);;
+    text-align: center;
+    border: 2px dashed var(--border-color);
+    padding: 2rem 1rem;
+}
+
+.form__add-description {
+    padding: 0 !important; /* TODO: Look around which element is adding 1rem padding top and bottom  */
 }
 
 .form__textarea {

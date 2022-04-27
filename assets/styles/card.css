@@ -1,0 +1,27 @@
+.card {
+    max-width: 47.5%;
+    margin-top: 1rem;
+}
+
+.card__title {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+[class^="card__"] {
+    margin-bottom: 0.5rem;
+}
+
+.card__image-container {
+    position: relative;
+}
+
+.card__icons {
+    position: absolute;
+    top: 0.75rem;
+    right: 0;
+}
+
+.card__icon {
+    margin-right: 0.75rem;
+}

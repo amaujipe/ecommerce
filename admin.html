@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek - Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/base.css" />
+    <link rel="stylesheet" href="assets/styles/header.css" />
+    <link rel="stylesheet" href="assets/styles/banner.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/gallery.css" />
+    <link rel="stylesheet" href="assets/styles/card.css" />
+    <link rel="stylesheet" href="assets/styles/product.css" />
+    <link rel="stylesheet" href="assets/styles/add-product.css" />
+    <link rel="stylesheet" href="assets/styles/aside.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
+    <link rel="stylesheet" href="assets/styles/modules.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo logo">
+                <img class="logo__image"src="assets/images/icon-logo.svg" alt="Logo de AluraGeek" />
+                <span class="logo__brand logo__brand--alt">Alura</span><span class="logo__brand">Geek</span>
+            </div>
+            <div class="header__actions">
+                <a class="header__button button button--secondary" href="#">Login</a>
+                <div class="header__search">
+                    <span class="header__search-text invisible">¿Que deseas buscar?</span>
+                    <img class="header__search-icon" src="assets/images/search.svg" alt="Icono de lupa" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="gallery">
+                <div class="gallery__header gallery__header--admin">
+                    <h2 class="gallery__title">Todos los productos</h2>
+                    <a href="#" class="gallery__link gallery__link--admin button button--primary">Agregar producto</a>
+                </div>
+                <article class="card">
+                    <div class="card__image-container">
+                        <div class="card__icons">
+                            <img class="card__icon" src="assets/images/delete.svg" alt="Icono para eliminar producto">
+                            <img class="card__icon" src="assets/images/edit.svg" alt="Icono para editar producto">
+                        </div>
+                        <img class="card__image" alt="Imagen del producto"
+                            srcset="
+                                assets/images/products/star-wars-mug-small.jpg 420w,
+                                assets/images/products/star-wars-mug-medium.jpg 768w,
+                                assets/images/products/star-wars-mug-large.jpg 1024w
+                            "
+                            src="assets/images/products/sources/star-wars-mug.jpg" 
+                        />
+                    </div>
+                    <h3 class="card__title">Star Wars Mug</h3>
+                    <p class="card__price"><strong>$60.00</strong></p>
+                    <!-- <a class="card__link" href="#">Ver producto</a> -->
+                    <p class="card__code">#1111111</p>
+                </article>
+                <article class="card">
+                    <div class="card__image-container">
+                        <div class="card__icons">
+                            <img class="card__icon" src="assets/images/delete.svg" alt="Icono para eliminar producto">
+                            <img class="card__icon" src="assets/images/edit.svg" alt="Icono para editar producto">
+                        </div>
+                        <img class="card__image" alt="Imagen del producto"
+                            srcset="
+                                assets/images/products/star-wars-mug-small.jpg 420w,
+                                assets/images/products/star-wars-mug-medium.jpg 768w,
+                                assets/images/products/star-wars-mug-large.jpg 1024w
+                            "
+                            src="assets/images/products/sources/star-wars-mug.jpg" 
+                        />
+                    </div>
+                    <h3 class="card__title">Star Wars Mug</h3>
+                    <p class="card__price"><strong>$60.00</strong></p>
+                    <!-- <a class="card__link" href="#">Ver producto</a> -->
+                    <p class="card__code">#1111111</p>
+                </article>
+                <article class="card">
+                    <div class="card__image-container">
+                        <div class="card__icons">
+                            <img class="card__icon" src="assets/images/delete.svg" alt="Icono para eliminar producto">
+                            <img class="card__icon" src="assets/images/edit.svg" alt="Icono para editar producto">
+                        </div>
+                        <img class="card__image" alt="Imagen del producto"
+                            srcset="
+                                assets/images/products/star-wars-mug-small.jpg 420w,
+                                assets/images/products/star-wars-mug-medium.jpg 768w,
+                                assets/images/products/star-wars-mug-large.jpg 1024w
+                            "
+                            src="assets/images/products/sources/star-wars-mug.jpg" 
+                        />
+                    </div>
+                    <h3 class="card__title">Star Wars Mug</h3>
+                    <p class="card__price"><strong>$60.00</strong></p>
+                    <!-- <a class="card__link" href="#">Ver producto</a> -->
+                    <p class="card__code">#1111111</p>
+                </article>
+                <article class="card">
+                    <div class="card__image-container">
+                        <div class="card__icons">
+                            <img class="card__icon" src="assets/images/delete.svg" alt="Icono para eliminar producto">
+                            <img class="card__icon" src="assets/images/edit.svg" alt="Icono para editar producto">
+                        </div>
+                        <img class="card__image" alt="Imagen del producto"
+                            srcset="
+                                assets/images/products/star-wars-mug-small.jpg 420w,
+                                assets/images/products/star-wars-mug-medium.jpg 768w,
+                                assets/images/products/star-wars-mug-large.jpg 1024w
+                            "
+                            src="assets/images/products/sources/star-wars-mug.jpg" 
+                        />
+                    </div>
+                    <h3 class="card__title">Star Wars Mug</h3>
+                    <p class="card__price"><strong>$60.00</strong></p>
+                    <!-- <a class="card__link" href="#">Ver producto</a> -->
+                    <p class="card__code">#1111111</p>
+                </article>
+            </section>
+        </div>      
+    </main>
+    <aside class="aside">
+        <div class="container">
+            <div class="aside__logo logo">
+                <img class="logo__image"src="assets/images/icon-logo.svg" alt="Logo de AluraGeek" />
+                <span class="logo__brand logo__brand--alt">Alura</span><span class="logo__brand">Geek</span>
+            </div>
+            <nav class="aside__nav nav">
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__link">Quienes Somos</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Política de privacidad</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Programa de fidelidad</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Nuestras tiendas</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Quiero ser franquiciado</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Anúnie aquí</a></li>
+                </ul>
+            </nav>
+            <section class="aside__contact contact">
+                <h2 class="form__title">Hable con nosotros</h2>
+                <form class="contact__form form" action="#">
+                    <input class="form__input" type="text" placeholder="Nombre" />
+                    <textarea class="form__textarea" placeholder="Escribe tu mensaje"></textarea>
+                    <button class="form__button button button--primary" type="submit">Enviar mensaje</button>
+                </form>
+            </section>
+        </div>
+    </aside>
+    <footer class="footer">
+        <section class="container">
+            <h2 class="footer__title">Desarrollado por <a class="footer__link" href="#">Andres Jimenez</a></h2>
+            <p class="footer__description">2022</p>
+        </section>
+    </footer>
+</body>
+</html>

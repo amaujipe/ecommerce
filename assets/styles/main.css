@@ -1,0 +1,17 @@
+.main__form {
+    padding: 5rem 2.5rem 4rem;
+}
+
+.main__form .form__title {
+    text-align: center;
+}
+
+.main__form [class^="form__"] {
+    margin-bottom: 1rem;
+}
+
+.main__form .form__button {
+    display: block;
+    margin: 0 auto;
+    width: 7rem;
+}

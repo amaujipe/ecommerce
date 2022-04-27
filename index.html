@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="assets/styles/base.css" />
     <link rel="stylesheet" href="assets/styles/header.css" />
     <link rel="stylesheet" href="assets/styles/banner.css" />
-    <link rel="stylesheet" href="assets/styles/categories.css" />
-    <link rel="stylesheet" href="assets/styles/cards.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/gallery.css" />
+    <link rel="stylesheet" href="assets/styles/card.css" />
+    <link rel="stylesheet" href="assets/styles/product.css" />
+    <link rel="stylesheet" href="assets/styles/add-product.css" />
     <link rel="stylesheet" href="assets/styles/aside.css" />
     <link rel="stylesheet" href="assets/styles/footer.css" />
     <link rel="stylesheet" href="assets/styles/modules.css" />
@@ -44,91 +47,96 @@
         </section>
         <div class="categories">
             <div class="container">
-                <section class="category">
-                    <div class="category__header">
-                        <h2 class="category__title">Star Wars</h2>
-                        <a href="#" class="category__link">Ver todo</a>
+                <section class="gallery">
+                    <div class="gallery__header">
+                        <h2 class="gallery__title">Star Wars</h2>
+                        <a href="#" class="gallery__link">Ver todo</a>
                     </div>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/star-wars-mug.jpg" alt="Star Wars Mug" />
+                        <picture>
+                            <source srcset="assets/images/products/sources/star-wars-mug.jpg" media="(min-width: 1440px)" />
+                            <source srcset="assets/images/products/star-wars-mug-large.jpg" media="(min-width: 1024px)" />
+                            <source srcset="assets/images/products/star-wars-mug-medium.jpg" media="(min-width: 768px)" />
+                            <img class="card__image" alt="Star Wars Mug" src="assets/images/products/star-wars-mug-small.jpg" />
+                        </picture>
                         <h3 class="card__title">Star Wars Mug</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/star-wars-mug.jpg" alt="Star Wars Mug" />
+                        <img class="card__image" src="assets/images/products/sources/star-wars-mug.jpg" alt="Star Wars Mug" />
                         <h3 class="card__title">Star Wars Mug</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/star-wars-mug.jpg" alt="Star Wars Mug" />
+                        <img class="card__image" src="assets/images/products/sources/star-wars-mug.jpg" alt="Star Wars Mug" />
                         <h3 class="card__title">Star Wars Mug</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/star-wars-mug.jpg" alt="Star Wars Mug" />
+                        <img class="card__image" src="assets/images/products/sources/star-wars-mug.jpg" alt="Star Wars Mug" />
                         <h3 class="card__title">Star Wars Mug</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                 </section>
-                <section class="category">
-                    <div class="category__header">
-                        <h2 class="category__title">Consolas</h2>
-                        <a href="#" class="category__link">Ver todo</a>
+                <section class="gallery">
+                    <div class="gallery__header">
+                        <h2 class="gallery__title">Consolas</h2>
+                        <a href="#" class="gallery__link">Ver todo</a>
                     </div>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/ps5.jpg" alt="Play Station 5" />
+                        <img class="card__image" src="assets/images/products/ps5.jpg" alt="Play Station 5" />
                         <h3 class="card__title">Play Station 5</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/ps5.jpg" alt="Play Station 5" />
+                        <img class="card__image" src="assets/images/products/ps5.jpg" alt="Play Station 5" />
                         <h3 class="card__title">Play Station 5</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/ps5.jpg" alt="Play Station 5" />
+                        <img class="card__image" src="assets/images/products/ps5.jpg" alt="Play Station 5" />
                         <h3 class="card__title">Play Station 5</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/ps5.jpg" alt="Play Station 5" />
+                        <img class="card__image" src="assets/images/products/ps5.jpg" alt="Play Station 5" />
                         <h3 class="card__title">Play Station 5</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                 </section>
-                <section class="category">
-                    <div class="category__header">
-                        <h2 class="category__title">Diversos</h2>
-                        <a href="#" class="category__link">Ver todo</a>
+                <section class="gallery">
+                    <div class="gallery__header">
+                        <h2 class="gallery__title">Diversos</h2>
+                        <a href="#" class="gallery__link">Ver todo</a>
                     </div>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/sonic.jpg" alt="Sonic" />
+                        <img class="card__image" src="assets/images/products/sonic.jpg" alt="Sonic" />
                         <h3 class="card__title">Sonic</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/sonic.jpg" alt="Sonic" />
+                        <img class="card__image" src="assets/images/products/sonic.jpg" alt="Sonic" />
                         <h3 class="card__title">Sonic</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/sonic.jpg" alt="Sonic" />
+                        <img class="card__image" src="assets/images/products/sonic.jpg" alt="Sonic" />
                         <h3 class="card__title">Sonic</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>
                     </article>
                     <article class="card">
-                        <img class="card__image" src="assets/images/cards/sonic.jpg" alt="Sonic" />
+                        <img class="card__image" src="assets/images/products/sonic.jpg" alt="Sonic" />
                         <h3 class="card__title">Sonic</h3>
                         <p class="card__price"><strong>$60.00</strong></p>
                         <a class="card__link" href="#">Ver producto</a>

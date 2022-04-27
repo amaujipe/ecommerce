@@ -1,8 +1,10 @@
 :root {
     /* COLORS */
+    --background-color: #F5F5F5;
+    --background-color-alt: #EAF2FD;
+    --border-color: #C8C8C8;
     --primary-color: #2A7AE4;
     --text-color: #464646;
-    --background-color-alt: #EAF2FD;
     --white-color: #FFFFFF;
 
     /* FONTS */
@@ -22,6 +24,7 @@ a {
 }
 
 body {
+    background-color: var(--background-color);
     color: var(--text-color);
     font-family: var(--main-font);
 }
