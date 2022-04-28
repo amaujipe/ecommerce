@@ -40,3 +40,34 @@
 .gallery__link--admin::after {
     content: none;
 }
+
+@media screen and (min-width: 768px) {
+
+    .gallery__header--admin {
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .gallery {
+        padding-top: 4rem;
+        padding-bottom:0;
+    }
+
+    .gallery:last-child {
+        padding-bottom: 4rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .gallery__title {
+        font-size: 2rem;
+    }
+    
+}

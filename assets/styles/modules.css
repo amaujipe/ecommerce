@@ -16,6 +16,7 @@
 
 .container {
     margin: 0 1rem;
+    max-width: 71rem;
 }
 
 .invisible {
@@ -101,5 +102,18 @@
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    
+}
 
+@media screen and (min-width: 1024px) {
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
 }
