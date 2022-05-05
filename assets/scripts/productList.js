@@ -1,4 +1,6 @@
-const products = [
+import { Product } from "./classes.js";
+
+export const productList = [
     new Product(
         'Taza de Storm Trooper',
         'Nuestra taza de café esculpida en 3D tiene capacidad para 20 onzas de su café con leche, capuchino o café de goteo favorito cuando necesite aprovechar la fuerza por la mañana. Es una taza coleccionable con licencia oficial que también se puede usar como pisapapeles, portalápices para su escritorio o un lugar para guardar su cambio suelto, por lo que puede tener la confianza de saber que está comprando un producto de Star Wars de Disney con licencia oficial de Silver Buffalo. Nuestra taza de café gigante de cerámica es perfecta para bebidas calientes o frías, no contiene BPA ni toxinas; Se recomienda lavar a mano, no apto para microondas ni lavavajillas. Es un gran regalo para todos los fanáticos de Star Wars en tu vida, ¡ahora pueden sentir que están bebiendo su bebida favorita en el cuartel con los icónicos Stormtroopers! Esta taza está hecha de cerámica duradera libre de toxinas. Capacidad para hasta 20 onzas de líquido.', 

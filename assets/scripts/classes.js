@@ -1,4 +1,4 @@
-class Category {
+export class Category {
     constructor(title, description) {
         this.title = title;
         this.description = description;
@@ -6,7 +6,7 @@ class Category {
     }
 }
 
-class Product {
+export class Product {
     constructor(title, description, price, imageSlug, category) {
         this.title = title;
         this.description = description;
