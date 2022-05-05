@@ -12,6 +12,11 @@
     margin-bottom: 0.5rem;
 }
 
+.card__image {
+    min-width: auto;
+    min-height: 100%;
+}
+
 .card__image-container {
     width: 100%;
     height: 11rem;
