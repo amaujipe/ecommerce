@@ -1,7 +1,7 @@
 .logo__image {
     vertical-align: middle;
     width: 1.5rem;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
 }
 
 .logo__brand {
@@ -10,5 +10,5 @@
 }
 
 .logo__brand--alt {
-    color: var(--primary-color);
+    color: var(--text-color);
 }

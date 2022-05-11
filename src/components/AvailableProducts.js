@@ -9,7 +9,7 @@ function AvailableProducts() {
     categories    = [...categoryList],
     products      = [...productList];
     categories.map(category => {
-        const gallery = Gallery(category.title);
+        const gallery = Gallery(category);
         let numberOfCards = cardsToShow();
         products.map(product => {
             if(category.title === product.category && numberOfCards > 0) {

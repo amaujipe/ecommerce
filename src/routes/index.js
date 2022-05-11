@@ -9,10 +9,10 @@ import resolveRoutes from "../utils/resolveRoutes";
 
 const routes = {
     '/': indexView,
-    '/:id': productView,
-    '/add-product': addProductView,
-    '/admin': adminView,
-    '/login': loginView
+    '#/:id': productView,
+    '#/add-product': addProductView,
+    '#/admin': adminView,
+    '#/login': loginView
 };
 
 // This router will return the content to show in the main tag
@@ -21,7 +21,7 @@ async function router() {
     let hash = getHash();
     let route = await resolveRoutes(hash);
     let renderView = routes[route] ? routes[route] : error404;
+    main.innerHTML = '';
     main.appendChild(renderView);
-    console.log(hash);
 };
 export default router;

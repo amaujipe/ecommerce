@@ -1,11 +1,12 @@
 import createTag from "../utils/createTag";
 
 function Logo(...classes) {
-    const logo      = createTag('div', null, 'logo', ...classes),
+    const logo      = createTag('a', null, 'logo', ...classes),
           logoImage = createTag('img', null, 'logo__image'),
           logoText  = createTag('p', null, 'logo__brand'),
-          textSpan1 = createTag('span', null, 'logo__brand--alt'),
-          textSpan2 = createTag('span', null,);
+          textSpan1 = createTag('span', null),
+          textSpan2 = createTag('span', null, 'logo__brand--alt');
+    logo.setAttribute('href', '/');
     logoImage.src = "assets/images/icon-logo.svg";
     logoImage.alt = "Logo de AluraGeek";
     textSpan1.textContent = 'Alura';

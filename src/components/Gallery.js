@@ -1,8 +1,8 @@
 import createTag from "../utils/createTag";
 import Button from "./Button";
 
-function Gallery(title) {
-    const gallery       = createTag('section', null, 'gallery', 'container'),
+function Gallery({ title }) {
+    const gallery       = createTag('section', title, 'gallery', 'container'),
           header        = createTag('div', null, 'gallery__header'),
           galleryTitle  = createTag('h2', null, 'gallery__title'),
           link          = Button('#', 'Ver todo', 'gallery__link');
