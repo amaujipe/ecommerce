@@ -9,21 +9,6 @@
     display: none;
 }
 
-
-
-/* .logo {
-
-} */
-
-
-
-
-/* .nav {
-
-} */
-
-
-
 .menu__item {
     list-style: none;
 }
@@ -86,8 +71,4 @@
         margin-right: auto;
     }
 
-}
-
-@media screen and (min-width: 1024px) {
-    
 }

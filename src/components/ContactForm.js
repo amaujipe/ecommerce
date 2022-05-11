@@ -1,4 +1,4 @@
-import createTag from "../utils/createTag.js";
+import createTag from "../utils/createTag";
 
 function ContactForm(...classes) {
     const contactForm   = createTag('section', null, 'contact', ...classes),

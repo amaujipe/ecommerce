@@ -1,4 +1,4 @@
-import createTag from "../utils/createTag.js";
+import createTag from "../utils/createTag";
 
 function Logo(...classes) {
     const logo      = createTag('div', null, 'logo', ...classes),

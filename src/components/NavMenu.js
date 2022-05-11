@@ -1,5 +1,5 @@
-import createTag from "../utils/createTag.js";
-import MenuItem from "./MenuItem.js";
+import createTag from "../utils/createTag";
+import MenuItem from "./MenuItem";
 
 function NavMenu(itemList ,...classes) {
     const items     = [...itemList],

@@ -1,11 +1,11 @@
-import addProductView from "../views/add-product.js";
-import adminView from "../views/admin.js";
-import error404 from "../views/error-404.js";
-import indexView from "../views/index.js";
-import loginView from "../views/login.js";
-import productView from "../views/product.js";
-import getHash from "../utils/getHash.js"
-import resolveRoutes from "../utils/resolveRoutes.js";
+import addProductView from "../views/add-product";
+import adminView from "../views/admin";
+import error404 from "../views/error-404";
+import indexView from "../views/index";
+import loginView from "../views/login";
+import productView from "../views/product";
+import getHash from "../utils/getHash"
+import resolveRoutes from "../utils/resolveRoutes";
 
 const routes = {
     '/': indexView,

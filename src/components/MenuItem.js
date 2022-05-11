@@ -1,4 +1,4 @@
-import createTag from "../utils/createTag.js";
+import createTag from "../utils/createTag";
 
 function MenuItem(text, url) {
     const menuItem = createTag('li', null, 'menu__item'),

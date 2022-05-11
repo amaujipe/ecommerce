@@ -1,4 +1,4 @@
-import createTag from "../utils/createTag.js";
+import createTag from "../utils/createTag";
 
 function Search(...classes) {
     const form  = createTag('form', null, 'search', ...classes),

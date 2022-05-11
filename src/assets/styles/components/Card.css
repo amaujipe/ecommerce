@@ -1,5 +1,5 @@
 .card {
-    max-width: 47.5%;
+    width: 47.5%;
     margin-top: 1rem;
 }
 
@@ -13,18 +13,9 @@
 }
 
 .card__image {
-    min-width: auto;
-    min-height: 100%;
-    object-fit: cover;
-}
-
-.card__image-container {
-    width: 100%;
+    width: 100% !important;
     height: 11rem;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
+    object-fit: cover;
 }
 
 .card__icons {
@@ -37,14 +28,19 @@
     margin-right: 0.75rem;
 }
 
+.card__price {
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.card__link {
+    padding: 0;
+}
+
 @media screen and (min-width: 768px) {
     .card {
-        max-width: 23.5%;
+        width: 23.5%;
     }
-    
-    /* .card__image-container {
-        
-    } */
 }
 
 @media screen and (min-width: 1024px) {

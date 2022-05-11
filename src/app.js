@@ -1,8 +1,8 @@
 import "./assets/styles/styles.css";
-import Header from "./components/Header.js";
-import Footer from "./components/Footer.js";
-import createTag from "./utils/createTag.js";
-import router from "./routes/index.js";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import createTag from "./utils/createTag";
+import router from "./routes/index";
 
 const app = document.getElementById('app'),
       header = Header(),

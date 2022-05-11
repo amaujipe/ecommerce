@@ -1,4 +1,4 @@
-import { Category } from './classes.js'
+import { Category } from './classes'
 
 export let categoryList = [
     new Category('Star Wars', 'Articulos relacionados a la serie de peliculas de Star Wars'),

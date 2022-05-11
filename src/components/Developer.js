@@ -1,4 +1,4 @@
-import createTag from "../utils/createTag.js";
+import createTag from "../utils/createTag";
 
 function Developer(...classes) {
     const developer = createTag('section', null, 'container', 'developer', ...classes),
