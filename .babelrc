@@ -1,0 +1,10 @@
+{
+	"presets": [
+		// We load the babel presets, which allow us to work with modern JS
+		"@babel/preset-env"
+	],
+	"plugins": [
+		// It helps us to work with asynchrony in javascript (async / await)
+		"@babel/plugin-transform-runtime"
+	]
+}

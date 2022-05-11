@@ -1,0 +1,35 @@
+.add-product.container {
+    max-width: 35rem;
+    padding: 1rem 0;
+}
+
+.add-product .form__title {
+    font-size: 1.5rem;
+}
+
+.add-product [class^="form__"] {
+    margin-bottom: 1rem;
+}
+
+.add-product [class^="form__"]:last-child {
+    margin-bottom: 0;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .add-product.container {
+        margin: auto;
+        padding: 2rem 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .add-product.container {
+        padding: 4rem 0;
+    }
+    
+}

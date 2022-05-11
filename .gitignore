@@ -1,1 +1,3 @@
 assets/images/products/source/
+node_modules/
+dist/

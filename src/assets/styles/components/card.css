@@ -1,0 +1,56 @@
+.card {
+    max-width: 47.5%;
+    margin-top: 1rem;
+}
+
+.card__title {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+[class^="card__"] {
+    margin-bottom: 0.5rem;
+}
+
+.card__image {
+    min-width: auto;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.card__image-container {
+    width: 100%;
+    height: 11rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.card__icons {
+    position: absolute;
+    top: 0.75rem;
+    right: 0;
+}
+
+.card__icon {
+    margin-right: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        max-width: 23.5%;
+    }
+    
+    /* .card__image-container {
+        
+    } */
+}
+
+@media screen and (min-width: 1024px) {
+
+    .card {
+        width: 15%;
+    }
+
+}

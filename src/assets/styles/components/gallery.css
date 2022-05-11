@@ -1,0 +1,73 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.gallery__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.gallery__header--admin {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.gallery__header--admin .gallery__title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gallery__title {
+    font-size: 1.375rem;
+}
+
+.gallery__link {
+    font-size: 0.875rem;
+}
+
+.gallery__link::after {
+    content: url(../../images/arrow.svg);
+    margin-left: 0.25rem;
+    vertical-align: middle;
+}
+
+.gallery__link--admin::after {
+    content: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .gallery__header--admin {
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .gallery {
+        padding-top: 4rem;
+        padding-bottom:0;
+    }
+
+    .gallery:last-child {
+        padding-bottom: 4rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .gallery__title {
+        font-size: 2rem;
+    }
+    
+}

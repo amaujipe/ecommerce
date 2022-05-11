@@ -1,0 +1,52 @@
+.banner {
+    background-image: url("../../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    color: var(--white-color);
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner .container {
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.banner__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner__description {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner__button {
+    display: inline-block;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+
+    .banner {
+        height: 22rem;
+    }
+
+    .banner .container {
+        padding-bottom: 2rem;
+    }
+
+    .banner__title {
+        font-size: 3.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .banner__description {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+}

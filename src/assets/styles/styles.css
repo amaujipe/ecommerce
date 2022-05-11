@@ -1,0 +1,32 @@
+/* Base Styles */
+@import url('/src/assets/styles/base/normalize.css');
+@import url('/src/assets/styles/base/base.css');
+
+/* Layout Styles */
+@import url('/src/assets/styles/layout/app.css');
+@import url('/src/assets/styles/layout/add-product.css');
+@import url('/src/assets/styles/layout/main.css');
+@import url('/src/assets/styles/layout/product.css');
+
+/* Components Styles */
+@import url('/src/assets/styles/components/Header.css');
+@import url('/src/assets/styles/components/Logo.css');
+@import url('/src/assets/styles/components/Button.css');
+@import url('/src/assets/styles/components/Search.css');
+@import url('/src/assets/styles/components/Banner.css');
+@import url('/src/assets/styles/components/gallery.css');
+@import url('/src/assets/styles/components/card.css');
+@import url('/src/assets/styles/components/Footer.css');
+@import url('/src/assets/styles/components/NavMenu.css');
+@import url('/src/assets/styles/components/MenuItem.css');
+@import url('/src/assets/styles/components/ContactForm.css');
+@import url('/src/assets/styles/components/Developer.css');
+
+/* State Styles */
+
+
+/* Theme Styles */
+
+
+/* Utils Styles */
+@import url('/src/assets/styles/utils/modules.css');

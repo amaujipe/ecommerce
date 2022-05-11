@@ -1,0 +1,35 @@
+:root {
+    /* COLORS */
+    --background-color: #F5F5F5;
+    --background-color-alt: #EAF2FD;
+    --border-color: #C8C8C8;
+    --primary-color: #2A7AE4;
+    --text-color: #464646;
+    --white-color: #FFFFFF;
+
+    /* FONTS */
+    --main-font: 'Raleway', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+
+img {
+    max-width: 100%;
+}
