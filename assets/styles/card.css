@@ -15,6 +15,7 @@
 .card__image {
     min-width: auto;
     min-height: 100%;
+    object-fit: cover;
 }
 
 .card__image-container {

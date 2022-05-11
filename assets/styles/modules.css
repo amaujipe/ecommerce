@@ -1,18 +1,4 @@
-.button {
-    font-size: 0.875rem;
-    font-weight: 600;
-    padding: 0.75rem 1rem;
-}
 
-.button--primary {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
-
-.button--secondary {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-}
 
 .container {
     margin: 0 1rem;
@@ -29,18 +15,6 @@
 
 } */
 
-.logo__image {
-    vertical-align: middle;
-    width: 1.5rem;
-}
-
-.logo__brand {
-    font-weight: 700;
-}
-
-.logo__brand--alt {
-    color: var(--primary-color);
-}
 
 
 
@@ -63,7 +37,7 @@
 
 } */
 
-.form__title {
+/* .form__title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
@@ -85,7 +59,7 @@
 
 .form__add-description {
     padding: 0 !important; /* TODO: Look around which element is adding 1rem padding top and bottom  */
-}
+/* }
 
 .form__textarea {
     resize: none;
@@ -93,7 +67,7 @@
 
 .form__button {
     border: none;
-}
+} */
 
 
 @media screen and (min-width: 768px) {
