@@ -6,7 +6,7 @@ function Banner() {
           container = createTag('div', null, 'container'),
           title     = createTag('h1', null, 'banner__title'),
           text      = createTag('p', null, 'banner__description'),
-          button    = Button('#Consolas', 'Ver consolas', 'button--primary', 'banner__button');
+          button    = Button('#/category/1', 'Ver consolas', 'button--primary', 'banner__button');
     title.textContent   = 'Mayo Promocional';
     text.textContent    = 'Productos seleccionados con 33% de descuento';
     container.appendChild(title);
