@@ -10,4 +10,4 @@ function indexView(container) {
     return fragment;
 }
 
-export default indexView();
+export default indexView;

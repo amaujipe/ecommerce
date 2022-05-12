@@ -8,7 +8,7 @@ import getHash from "../utils/getHash"
 import resolveRoutes from "../utils/resolveRoutes";
 
 const routes = {
-    '/': indexView,
+    '#/': indexView,
     '#/:id': productView,
     '#/add-product': addProductView,
     '#/admin': adminView,
@@ -20,8 +20,9 @@ async function router() {
     const main = null || document.getElementById('main');
     let hash = getHash();
     let route = await resolveRoutes(hash);
-    let renderView = routes[route] ? routes[route] : error404;
+    let findingView = routes[route] ? routes[route] : error404;
+    let view = findingView();
     main.innerHTML = '';
-    main.appendChild(renderView);
+    main.appendChild(view);
 };
 export default router;

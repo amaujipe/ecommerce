@@ -2,7 +2,7 @@ import "./assets/styles/styles.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import createTag from "./utils/createTag";
-import router from "./routes/index";
+import router from "./routes/index.routes";
 
 const app = document.getElementById('app'),
       header = Header(),

@@ -1,10 +1,14 @@
 function resolveRoutes(hash) {
     let route = null;
-    if(hash.length <= 3) {
-        route =  (hash === '/') ? '/' : '#/:id';
+    
+    if(hash.length === 0)
+        route = '#/'
+    else if(hash.length <= 4) {
+        route =  (hash === '/' || hash === '#/') ? '#/' : '#/:id';
     } else {
-        route = `#/${hash}`;
+        route = hash;
     }
+
     return route;
 }
 

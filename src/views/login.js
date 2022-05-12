@@ -22,7 +22,7 @@ function loginView() {
     return login;
 }
 
-export default loginView();
+export default loginView;
 
 
 
