@@ -11,7 +11,7 @@ module.exports = {
 		path: path.resolve(__dirname, 'dist'),
 		// Compiled javascript file name
 		filename: 'main.js',
-        assetModuleFilename: 'assets/images/[hash][ext][query]' 
+        assetModuleFilename: 'assets/images/[name][ext]' 
 	},
 	resolve: {
 		// Webpack will resolve this file extensions
